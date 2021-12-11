@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tambah</title>
+    <style>
+        #container {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <p>P satu</p>
+        <p>P baru html</p>
+    </div>
+
+    <script>
+        // buat variable penampung
+        // bikin elemen
+        // bikin teks node
+        // gabungkan elemen dengan teks node
+
+        // seleksi parent tujuannya
+        // tambah child ke parent
+        let elemen, teks, parent
+        elemen = document.createElement("p")
+        teks = document.createTextNode("P baru")
+
+        elemen.appendChild(teks)
+
+        parent = document.getElementById("container")
+
+        parent.appendChild(elemen)
+
+    </script>
+</body>
+
+</html>
