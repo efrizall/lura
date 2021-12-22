@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <h1>Belajar Array JS</h1>
+
+    <script>
+        let mhs = ['rizal', 175, [90, 80, 70]];
+        let i;
+        for (i in mhs) {
+            console.log(mhs[i]);
+        }
+
+        // Membuat objek literal
+        let mahasiswa = {
+            // property
+            nama: 'Efrizal',
+            prodi: 'Informatika',
+            alamat: 'Pondok Labu',
+
+            // method
+            info: function () {
+                console.log(this.nama + this.prodi + this.alamat)
+            }
+        }
+    </script>
+</body>
+
+</html>
